@@ -1,0 +1,20 @@
+def jam(x):
+    return (x*60*60)
+def menit(x):
+    return (x*60)
+def detik(x):
+    return x
+def total(x,y,z):
+    return jam(x)+menit(y)+detik(z)
+print(total(1,2,3))
+
+# def pers(a,b,c):
+#     return 
+# print(pers(1,2,3))
+def jumlah(a,b):
+    return -b/a
+def kali(a,c):
+    return c/a
+def hasil(a,b,c):
+    return (((jumlah(a,b))**2)-(2*kali(a,c)))
+print (hasil(1,0,-4))

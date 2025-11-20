@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* imoprt font */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    /* css reset */
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+     
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <h1 class="navbar-name"><span class="name-bolder">Bahir</span> Ananda Wibowo</h1>
+        <div class="navlinks">
+          <a class="navlink" href="#">Home</a>
+          <a class="navlink" href="#">About Me</a>
+          <a class="navlink" href="#">Skill</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div>
+          <h1 class="hero-title">Hello I'm a Full Stack Developer</h1>
+          <p class="hero-paragraph">I'm an undergraduate student at Diopnegero University, who has an interest in programming.</p>
+          <button class="button button-primary">Hire Me</button>
+        </div>
+        <div class="hero-image">
+          <img src="./irichimagenew.png" alt="hero image">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
